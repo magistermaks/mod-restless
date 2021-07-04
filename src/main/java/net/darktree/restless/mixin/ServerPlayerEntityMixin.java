@@ -67,7 +67,7 @@ public abstract class ServerPlayerEntityMixin extends PlayerEntity {
         }
 
         resetStat(Stats.CUSTOM.getOrCreateStat(Stats.TIME_SINCE_REST));
-        setSpawnPoint(world.getRegistryKey(), pos, yaw);
+        setSpawnPoint(world.getRegistryKey(), pos, headYaw);
         return Either.right(Unit.INSTANCE);
     }
 

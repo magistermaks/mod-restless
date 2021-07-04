@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "restless",
+  "version": "${version}",
+  "name": "Restless",
+  "description": "Restless nights, in the darkness.",
+  "authors": [
+    "magistermaks"
+  ],
+  "contact": {
+    "website": "http://darktree.net",
+    "homepage": "http://darktree.net"
+  },
+  "license": "MIT",
+  "icon": "assets/restless/icon.png",
+  "environment": "*",
+  "entrypoints": {
+  },
+  "mixins": [
+    "restless.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "*"
+  }
+}
